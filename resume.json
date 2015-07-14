@@ -18,17 +18,20 @@
       {
         "network": "GitHub",
         "username": "thomastuts",
-        "url": "https://github.com/thomastuts"
+        "url": "https://github.com/thomastuts",
+        "icon": "icon-mark-github"
       },
       {
         "network": "Twitter",
         "username": "thomastuts",
-        "url": "https://twitter.com/thomastuts"
+        "url": "https://twitter.com/thomastuts",
+        "icon": "icon-twitter"
       },
       {
         "network": "LinkedIn",
         "username": "Thomas Tuts",
-        "url": "https://www.linkedin.com/profile/view?id=119191438"
+        "url": "https://www.linkedin.com/profile/view?id=119191438",
+        "icon": "icon-linkedin"
       }
     ]
   },

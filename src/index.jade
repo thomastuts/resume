@@ -2,7 +2,9 @@ doctype html
 html(lang='en')
   head
     meta(charset='UTF-8')
+    link(rel="stylesheet", type="text/css", href="http://fonts.googleapis.com/css?family=Open+Sans:700,300,400")
     link(rel="stylesheet", type="text/css", href="styles/main.css")
+    meta(name='viewport', content='width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0')
     title Thomas Tuts - Resumé
   body
     aside
@@ -10,30 +12,46 @@ html(lang='en')
       h1= basics.name
       h2= basics.label
       ul.contact-info
-        li #{basics.location.city}, #{basics.location.countryCode}
-        li #{basics.phone}
-        li #{basics.email}
-        li #{basics.website}
-      ul.social
+        li
+          span.icon.icon-location
+          | #{basics.location.city}, #{basics.location.countryCode}
+        li
+          span.icon.icon-phone
+          | #{basics.phone}
+        li
+          span.icon.icon-envelope
+          a(href="mailto:#{basics.email}")= basics.email
+        li
+          span.icon.icon-globe
+          a(href=basics.website, target="_blank")= basics.website
+      .social
         each profile in basics.profiles
-          li
-          a(href=profile.url, target="_blank")= profile.network
+          a(href=profile.url, target="_blank")
+            span(class="icon #{profile.icon}")
     main
       section
-        h3 About me
+        h3
+          span.icon.icon-user
+          | About me
         p= basics.summary
       section
-        h3 Work experience
-        each job in work
-          h4=job.company
-          .date-range #{job.startDate} - #{job.endDate}
-          if job.highlights
-            ul.highlights
-              each highlight in job.highlights
-                li= highlight
+        h3
+          span.icon.icon-briefcase
+          | Work experience
+        ul.items
+          each job in work
+              li
+                h4 #{job.company} &mdash; #{job.position}
+                .date-range #{job.startDate} - #{job.endDate}
+                if job.highlights.length > 0
+                  ul.highlights
+                    each highlight in job.highlights
+                      li= highlight
       section
-        h3 Skills
-        ul.skills
+        h3
+          span.icon.icon-embed2
+          | Skills
+        ul.items.skills
           each skill in skills
             li
               h4= skill.name
@@ -41,24 +59,40 @@ html(lang='en')
                 each keyword in skill.keywords
                   li= keyword
       section
-        h3 Education
-        each course in education
-          h4 #{course.area}, #{course.institution}
-          .date-range #{course.startDate} - #{course.endDate}
+        h3
+          span.icon.icon-graduation-cap
+          | Education
+        ul.items
+          each course in education
+              li
+                h4 #{course.area}, #{course.institution}
+                .date-range #{course.startDate} - #{course.endDate}
       section
-        h3 Awards
-        each award in awards
-          h4 #{award.title}, #{award.awarder}
-          .date-range #{award.date}
+        h3
+          span.icon.icon-trophy
+          | Awards
+        ul.items
+          each award in awards
+              li
+                h4 #{award.title}, #{award.awarder}
+                .date-range #{award.date}
       section
-        h3 Volunteer work
-        each job in volunteer
-          h4 #{job.position}, #{job.organization}
-          .date-range #{job.startDate} - #{job.endDate}
+        h3
+          span.icon.icon-man
+          | Volunteer work
+        ul.items
+            each job in volunteer
+              li
+                h4 #{job.position}, #{job.organization}
+                .date-range #{job.startDate} - #{job.endDate}
       section
-        h3 Publications
-        each publication in publications
-          h4 #{publication.name}, #{publication.publisher}
-          .date-range #{publication.releaseDate}
-          if publication.summary
-            p= publication.summary
+        h3
+          span.icon.icon-books
+          | Publications
+        ul.items
+          each publication in publications
+              li
+                h4 #{publication.name}, #{publication.publisher}
+                .date-range #{publication.releaseDate}
+                if publication.summary
+                  p= publication.summary

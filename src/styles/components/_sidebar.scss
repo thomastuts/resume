@@ -6,15 +6,58 @@ aside {
   height: 100%;
   position: fixed;
   color: #fff;
+  padding: 20px;
+  padding-top: 40px;
+
+  @media(max-width: 800px) {
+    position: relative;
+    height: auto;
+    width: 100%;
+    text-align: center;
+  }
+
+  .icon {
+    color: inherit;
+  }
 
   img {
     border-radius: 50%;
     width: $img-size;
     display: block;
     margin: 0 auto;
+    margin-bottom: 20px;
   }
 
-  h1 {
+  ul {
+    list-style-type: none;
+    border-top: 1px solid #fff;
+    padding-top: 20px;
+    margin-top: 20px;
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  .social {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid #fff;
+    text-align: center;
+    font-size: 24px;
+
+    a {
+      margin-right: 15px;
+
+      &:last-child {
+        margin-right: 0;
+      }
+    }
+  }
+
+  h1,
+  h2 {
     text-align: center;
   }
 }

@@ -1,0 +1,25 @@
+.skills {
+
+  > li {
+    border-left: 3px solid $smoke;
+    border-bottom: 0;
+    padding: 0;
+    padding-left: 10px;
+    margin-bottom: 30px;
+  }
+
+  .keywords {
+    margin-top: 5px;
+
+    li {
+      display: inline-block;
+      background-color: $primary;
+      color: #fff;
+      font-size: $font-size-small;
+      padding: 3px 5px;
+      border-radius: 2px;
+      margin-right: 5px;
+      margin-bottom: 5px;
+    }
+  }
+}

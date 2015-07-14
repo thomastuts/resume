@@ -1,0 +1,15 @@
+.items {
+  list-style-type: none;
+
+  > li {
+    border-bottom: 1px dotted darken($smoke, 10%);
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+
+    &:last-child {
+      border-bottom: 0;
+      margin-bottom: 0;
+      padding-bottom: 0;
+    }
+  }
+}

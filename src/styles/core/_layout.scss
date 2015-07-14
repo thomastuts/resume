@@ -17,4 +17,8 @@ body {
 
 main {
   margin-left: $aside-width;
+
+  @media(max-width: 800px) {
+    margin-left: 0;
+  }
 }

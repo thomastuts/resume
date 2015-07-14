@@ -1,0 +1,12 @@
+$section-gutter-size: 20px;
+
+main {
+  background-color: lighten($smoke, 5%);
+  padding: $section-gutter-size;
+
+  section {
+    background-color: #fff;
+    margin-bottom: $section-gutter-size;
+    padding: 20px;
+  }
+}

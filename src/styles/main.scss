@@ -1,6 +1,14 @@
 @import "settings/variables";
 
+@import "vendor/icons";
+
 @import "core/layout";
 @import "core/typography";
+@import "core/iconography";
 
 @import "components/sidebar";
+@import "components/main";
+@import "components/date-range";
+@import "components/items-list";
+@import "components/job-highlights";
+@import "components/skills";
