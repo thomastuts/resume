@@ -12,4 +12,7 @@ gulp.task('jade', jade);
 gulp.task('default', ['serve']);
 
 gulp.watch(['src/styles/**/*.scss'], ['sass']);
-gulp.watch(['src/**/*.jade'], ['jade']);
+gulp.watch([
+  'src/**/*.jade',
+  'resume.json'
+], ['jade']);

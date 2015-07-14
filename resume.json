@@ -50,6 +50,15 @@
       ]
     },
     {
+      "company": "Codementor",
+      "position": "Mentor for JS developers",
+      "website": "https://www.codementor.io/thomastuts",
+      "startDate": "June 2014",
+      "endDate": "June 2015",
+      "summary": "",
+      "highlights": []
+    },
+    {
       "company": "In The Pocket",
       "position": "Software Engineer (student job)",
       "website": "http://inthepocket.mobi",
@@ -77,15 +86,6 @@
       "website": "http://irail.be",
       "startDate": "July 2012",
       "endDate": "July 2012",
-      "summary": "",
-      "highlights": []
-    },
-    {
-      "company": "Codementor",
-      "position": "Mentor for JS developers",
-      "website": "https://www.codementor.io/thomastuts",
-      "startDate": "June 2014",
-      "endDate": "June 2015",
       "summary": "",
       "highlights": []
     }

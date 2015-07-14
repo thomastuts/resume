@@ -92,7 +92,8 @@ html(lang='en')
         ul.items
           each publication in publications
               li
-                h4 #{publication.name}, #{publication.publisher}
+                a(href=publication.website)
+                  h4 #{publication.name}, #{publication.publisher}
                 .date-range #{publication.releaseDate}
                 if publication.summary
                   p= publication.summary
