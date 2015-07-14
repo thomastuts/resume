@@ -1,0 +1,20 @@
+$img-size: 100px;
+
+aside {
+  background-color: $primary;
+  width: $aside-width;
+  height: 100%;
+  position: fixed;
+  color: #fff;
+
+  img {
+    border-radius: 50%;
+    width: $img-size;
+    display: block;
+    margin: 0 auto;
+  }
+
+  h1 {
+    text-align: center;
+  }
+}

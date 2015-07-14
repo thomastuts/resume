@@ -1,5 +1,6 @@
-$color: red;
+@import "settings/variables";
 
-body {
-  background-color: $color;
-}
+@import "core/layout";
+@import "core/typography";
+
+@import "components/sidebar";
