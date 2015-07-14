@@ -1,0 +1,204 @@
+{
+  "basics": {
+    "name": "Thomas Tuts",
+    "label": "Front-end Engineer",
+    "picture": "https://media.licdn.com/mpr/mpr/shrinknp_400_400/p/2/005/00b/3e9/2ea6ccd.jpg",
+    "email": "thomas.tuts@gmail.com",
+    "phone": "+32 499 25 82 51",
+    "website": "http://thomastuts.com",
+    "summary": "I'm a software engineer/code fiend with a crazy passion for all things Web and coding. Writing it, reading it, teaching and talking about it — I love it all. The projects I've worked on so far, combined with the regular mentoring I've given to other developers, has shaped me into a developer who is passionate not only about code, but also about sharing and teaching it. Currently looking for the next big challenge in life!",
+    "location": {
+      "address": "Hovenierstraat 22",
+      "postalCode": "9090",
+      "city": "Melle",
+      "countryCode": "BE",
+      "region": "Oost-Vlaanderen"
+    },
+    "profiles": [
+      {
+        "network": "GitHub",
+        "username": "thomastuts",
+        "url": "https://github.com/thomastuts"
+      },
+      {
+        "network": "Twitter",
+        "username": "thomastuts",
+        "url": "https://twitter.com/thomastuts"
+      },
+      {
+        "network": "LinkedIn",
+        "username": "Thomas Tuts",
+        "url": "https://www.linkedin.com/profile/view?id=119191438"
+      }
+    ]
+  },
+  "work": [
+    {
+      "company": "Darwin Analytics",
+      "position": "Software Engineer",
+      "website": "",
+      "startDate": "December 2013",
+      "endDate": "May 2015",
+      "summary": "",
+      "highlights": [
+        "Wrote and tested all code for full front-end application",
+        "Designed and maintained build pipeline",
+        "Collaborated on design and product decisions"
+      ]
+    },
+    {
+      "company": "In The Pocket",
+      "position": "Software Engineer (student job)",
+      "website": "http://inthepocket.mobi",
+      "startDate": "July 2013",
+      "endDate": "August 2013",
+      "summary": "",
+      "highlights": [
+        "Worked on and launched a second-screen experience project for one of the biggest TV broadcasting groups in Belgium"
+      ]
+    },
+    {
+      "company": "In The Pocket",
+      "position": "Software Engineer (internship)",
+      "website": "http://inthepocket.mobi",
+      "startDate": "May 2013",
+      "endDate": "June 2013",
+      "summary": "",
+      "highlights": [
+        "Worked on and launched a second-screen experience project for one of the biggest TV broadcasting groups in Belgium"
+      ]
+    },
+    {
+      "company": "iRail",
+      "position": "Software Engineer",
+      "website": "http://irail.be",
+      "startDate": "July 2012",
+      "endDate": "July 2012",
+      "summary": "",
+      "highlights": []
+    },
+    {
+      "company": "Codementor",
+      "position": "Mentor for JS developers",
+      "website": "https://www.codementor.io/thomastuts",
+      "startDate": "June 2014",
+      "endDate": "June 2015",
+      "summary": "",
+      "highlights": []
+    }
+  ],
+  "volunteer": [
+    {
+      "organization": "E-Events",
+      "position": "Web Developer / Media Artist",
+      "website": "http://coderdojo.com/",
+      "startDate": "January 2011",
+      "endDate": "October 2014",
+      "summary": "",
+      "highlights": []
+    }
+  ],
+  "education": [
+    {
+      "institution": "Artevelde Hogeschool Gent",
+      "area": "Graphical & Digital Media",
+      "studyType": "Bachelor",
+      "startDate": "2010",
+      "endDate": "2013",
+      "gpa": "",
+      "courses": []
+    }
+  ],
+  "awards": [
+    {
+      "title": "Apps For Ghent 2012 Winner",
+      "date": "March 2012",
+      "awarder": "AppsForGhent",
+      "summary": ""
+    },
+    {
+      "title": "Apps For Ghent 2013 Winner",
+      "date": "March 2013",
+      "awarder": "AppsForGhent",
+      "summary": ""
+    },
+    {
+      "title": "TEDxGhent 2013 Speaker",
+      "date": "June 2013",
+      "awarder": "TEDxGhent",
+      "summary": ""
+    }
+  ],
+  "publications": [
+    {
+      "name": "TEDx Ghent Talk: Bridging the Gap",
+      "publisher": "TEDxGhent",
+      "releaseDate": "September 2013",
+      "website": "https://www.youtube.com/watch?v=d1E8LVV7b1s&hd=1",
+      "summary": ""
+    },
+    {
+      "name": "Deploying AngularJS",
+      "publisher": "Packt Publishing",
+      "releaseDate": "December 2014",
+      "website": "https://www.packtpub.com/web-development/deploying-angularjs-video",
+      "summary": "The concept of this course was to help experienced AngularJS developers create a build system for their project, test and monitor their code and subsequently deploy their code to a cloud platform (in this case, Heroku)."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Web Development",
+      "level": "",
+      "keywords": [
+        "HTML",
+        "CSS",
+        "Javascript",
+        "Node.js",
+        "Unit / E2E testing",
+        "Build systems (Gulp, Grunt)"
+      ]
+    },
+    {
+      "name": "Communication",
+      "level": "",
+      "keywords": [
+        "Writing / copywriting",
+        "Technical writing"
+      ]
+    },
+    {
+      "name": "Design",
+      "level": "",
+      "keywords": [
+        "Photoshop",
+        "Illustrator",
+        "Sketch",
+        "UI/UX"
+      ]
+    },
+    {
+      "name": "Workflow",
+      "level": "",
+      "keywords": [
+        "Git",
+        "UNIX"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Dutch",
+      "fluency": "Native speaker"
+    },
+    {
+      "language": "English",
+      "fluency": "Full professional proficiency"
+    },
+    {
+      "language": "French",
+      "fluency": "Professional working proficiency"
+    }
+  ],
+  "interests": [],
+  "references": []
+}
