@@ -41,7 +41,11 @@ html(lang='en')
         ul.items
           each job in work
               li
-                h4 #{job.company} &mdash; #{job.position}
+                if job.website
+                  a(href=job.website, target="_blank")
+                    h4 #{job.company} &mdash; #{job.position}
+                else
+                  h4 #{job.company} &mdash; #{job.position}
                 .date-range #{job.startDate} - #{job.endDate}
                 if job.highlights.length > 0
                   ul.highlights
